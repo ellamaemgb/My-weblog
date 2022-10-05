@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weblog</title>
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 style="font-size: 60px"><span style="color: black;"><span style="font-family:'Comic sans MS'" >&nbsp;My Weblog</span></span></h1>
+        </header>
+
+        <div id="main">
+
+        <div id="sidebar">
+            <h1 style font-size=""> Favorite things to do;</h1>
+            <h1 style="font-size: 14px">&nbsp;&nbsp;Sleeping</h1>
+            <h1 style="font-size: 14px">&nbsp;&nbsp;Watching vlog</h1>
+            <h1 style="font-size: 14px">&nbsp;&nbsp;Eating</h1>
+
+        </div>
+
+
+        <div id="sidebar2">
+        <div class="eyya">
+            <form action="">
+                <input type="text" placeholder="Search...">
+                <button type="submit">search</button>
+              </form>
+            
+           <h4 style font-size=""> Favorite Color</h4>
+            <form>
+              <label for="Blue"><input id="Blue" type="radio" name="indoor-outdoor" value="Blue" checked> Blue</label>
+              <label for="Green"><input id="Green" type="radio" name="indoor-outdoor" value="Green"> Green</label><br>
+            </form>
+
+            <h4 style font-size=""> Dream Place to Travel</h4>
+
+            <form>
+              <label for="Paris"><input id="Paris" type="checkbox" name="Place" value="Paris" checked> Paris</label>
+              <label for="Green Land"><input id="Green Land" type="checkbox" name="Place" value="Green Land"> Green Land</label>
+            </form>
+
+        </div>
+    </div>
+        <div id="column1">
+            <h1 style="font-family:'Comic sans MS'"> &nbsp;&nbsp;Post</h1>
+            <a onclick="resizeImage()" href="#" >&nbsp;&nbsp;<img src="img/a.png" id="img1" width="200px" height="200px"/><br/></a>
+            <h2></h2>
+            <script src="j.js"></script>
+            <h3> &nbsp;&nbsp;&nbsp;Magboo, Ella Mae G</h3>
+            <h4>&nbsp;&nbsp;BS Information Technology</h4>
+            <h5>&nbsp;&nbsp;Batangas State University-Mabini Campus</h5>
+            <a onclick="remove()" href="#"> &nbsp;&nbsp;Show more...</a>
+
+
+            <script>
+                function remove(){
+                    document.querySelector('.eyya').remove();
+                }
+        
+            </script>
+        </div>
+        </div>
+
+        <footer>
+            <h1 style="font-size: 15px"> &nbsp;&nbsp;&nbsp;&nbsp;"Continue Dreaming "</h1>
+            <h2 style="font-size: 12px">&nbsp;&nbsp;&nbsp;:)</h1>
+        </footer>
+    </div>
+    
+</body>
+</html>
